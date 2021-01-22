@@ -135,6 +135,9 @@
     },
     {
       "path": "../packages/timeline/compile.tsconfig.json"
+    },
+    {
+      "path": "../packages/sessionstack/compile.tsconfig.json"
     }
   ]
 }

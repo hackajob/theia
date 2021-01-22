@@ -49,6 +49,7 @@ cache:
     - packages/scm-extra/node_modules
     - packages/scm/node_modules
     - packages/search-in-workspace/node_modules
+    - packages/sessionstack/node_modules
     - packages/task/node_modules
     - packages/terminal/node_modules
     - packages/timeline/node_modules

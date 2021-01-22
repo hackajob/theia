@@ -1,0 +1,39 @@
+{
+  "name": "@theia/sessionstack",
+  "version": "0.0.1",
+  "description": "Sessionstack - recording the Theia IDE via sessionstack",
+  "keywords": [
+    "theia-extension"
+  ],
+  "license": "EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eclipse-theia/theia.git"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "dependencies": {
+    "@theia/core": "^1.6.0"
+  },
+  "devDependencies": {
+    "rimraf": "latest",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "lint": "theiaext lint",
+    "build": "theiaext build",
+    "watch": "theiaext watch",
+    "clean": "theiaext clean",
+    "test": "theiaext test"
+  },
+  "theiaExtensions": [
+    {
+      "frontend": "lib/browser/theia-sessionstack-extension-frontend-module"
+    }
+  ]
+}

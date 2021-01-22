@@ -210,20 +210,17 @@ export function createPreferenceProxy<T>(preferences: PreferenceService, schema:
         return result;
     };
 
-    return new Proxy({}, {
+    const proxy =  new Proxy({}, {
         get,
         ownKeys,
-        getOwnPropertyDescriptor: (_, property: string) => {
-            if (ownKeys().indexOf(property) !== -1) {
-                return {
-                    enumerable: true,
-                    configurable: true
-                };
-            }
-            return {};
-        },
+        getOwnPropertyDescriptor: (_, property: string) => ({
+            enumerable: true,
+            configurable: true
+        }),
         set,
         deleteProperty: unsupportedOperation,
         defineProperty: unsupportedOperation
     });
+
+    return proxy;
 }
