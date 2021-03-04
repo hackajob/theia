@@ -14,7 +14,7 @@
     "fast-plist": "^0.1.2",
     "idb": "^4.0.5",
     "jsonc-parser": "^2.2.0",
-    "onigasm": "^2.2.0",
+    "onigasm": "file:./external_lib/onigasm",
     "vscode-textmate": "^4.4.0"
   },
   "publishConfig": {

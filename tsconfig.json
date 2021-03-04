@@ -168,6 +168,18 @@
       ],
       "@theia/timeline/*": [
         "packages/timeline/*"
+      ],
+      "@theia/sessionstack/*": [
+        "packages/sessionstack/*"
+      ],
+      "@theia/sessionstack/lib/*": [
+        "packages/sessionstack/src/*"
+      ],
+      "@theia/widget-remover/*": [
+        "packages/widget-remover/*"
+      ],
+      "@theia/widget-remover/lib/*": [
+        "packages/widget-remover/src/*"
       ]
     }
   }

@@ -2,6 +2,7 @@
 node_modules
 build
 lib
+!packages/monaco/external_lib/onigasm/lib
 *.log
 .idea
 .metadata

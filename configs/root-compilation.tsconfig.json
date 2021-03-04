@@ -135,6 +135,12 @@
     },
     {
       "path": "../packages/timeline/compile.tsconfig.json"
+    },
+    {
+      "path": "../packages/sessionstack/compile.tsconfig.json"
+    },
+    {
+      "path": "../packages/widget-remover/compile.tsconfig.json"
     }
   ]
 }
